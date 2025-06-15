@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DatorsProyectoEntrega\EntregasSA.AccesoDatos.csproj" />
+    <ProjectReference Include="..\EntregasSA.Entidades\EntregasSA.Entidades.csproj" />
+  </ItemGroup>
+
+</Project>
